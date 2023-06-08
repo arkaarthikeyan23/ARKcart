@@ -2,7 +2,7 @@
   "name": "arkcart",
   "version": "1.0.0",
   "description": "ecommerce using mern stack",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "start": "nodemon backend/server.js",
     "build": "cd backend && npm install && cd ../frontend && npm install && npm run build",
