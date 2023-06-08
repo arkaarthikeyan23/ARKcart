@@ -5,6 +5,7 @@
   "main": "server.js",
   "scripts": {
     "start": "nodemon backend/server.js",
+    "build": "cd backend && npm install && cd ../frontend && npm install && npm run build",
     "dev": "set NODE_ENV=development&&nodemon backend/server.js",
     "prod": "set NODE_ENV=production&&nodemon backend/server.js",
     "seeder": "node backend/utils/seeder.js"
